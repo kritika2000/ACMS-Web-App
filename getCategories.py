@@ -9,11 +9,11 @@ from textblob import TextBlob
 from textblob import Word
 import json
 import random
-nltk.download('averaged_perceptron_tagger')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
+nltk.download('averaged_perceptron_tagger')
 
 positive = 0
 negative = 0
